@@ -30,9 +30,11 @@
   overflow: auto;
 }
 .loader-container {
+  height: 90vh;
   align-self: center;
+  align-items: center;
   display: flex;
-  margin: 35% auto;
+  /* margin: 35% auto; */
   justify-content: center;
 }
 .loader-img {

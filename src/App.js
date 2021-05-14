@@ -39,7 +39,7 @@ class VacancyCard extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://opendata.trudvsem.ru/api/v1/vacancies/region/7700000000000?text=frontend')
+    fetch('https://opendata.trudvsem.ru/api/v1/vacancies/region/7700000000000?text=frontend')
       .then(result => result.json())
       .then((result) => {
         const vacancies = [];
