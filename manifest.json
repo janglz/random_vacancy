@@ -1,0 +1,14 @@
+{
+  "short_name": "Vacancies",
+  "name": "random vacancy app",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
