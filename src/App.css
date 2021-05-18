@@ -24,7 +24,7 @@
   height: 90vh;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  /* align-content: center; */
 }
 .App-main{
   overflow: auto;
@@ -103,6 +103,17 @@ button {
   margin: 0 auto;
   padding: 20px;
   max-width: 600px;
+}
+.inline {
+  display: inline;
+}
+.select {
+  font-size: 16px;
+  font-weight: 600;
+  /* width: 30%; */
+}
+.no-border {
+  border: none;
 }
 .line__wrap span {
   display: block;
