@@ -46,12 +46,12 @@ class VacancyCard extends React.Component {
     this.getCities = this.getCities.bind(this);
   }
 
-  static defaultProps = {
-    city: {
-      name: 'Москва',
-      code: 7700000000000
-    }
-  };
+  // static defaultProps = {
+  //   city: {
+  //     name: 'Москва',
+  //     code: 7700000000000
+  //   }
+  // };
 
   async getCities() {
     const cities = [];
